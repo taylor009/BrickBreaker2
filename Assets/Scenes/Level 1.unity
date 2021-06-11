@@ -136,6 +136,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Session
       objectReference: {fileID: 0}
+    - target: {fileID: 2762729867096782736, guid: 30929e612c423d6499700fece57367ce,
+        type: 3}
+      propertyPath: isAutoPlayEnabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6591670529663223551, guid: 30929e612c423d6499700fece57367ce,
         type: 3}
       propertyPath: m_RootOrder
@@ -2940,6 +2945,11 @@ PrefabInstance:
       propertyPath: paddle1
       value: 
       objectReference: {fileID: 459816936}
+    - target: {fileID: 322223047476594137, guid: 027d92e408835a4488a54fc9f9216e6c,
+        type: 3}
+      propertyPath: randomFactor
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 322223047476594138, guid: 027d92e408835a4488a54fc9f9216e6c,
         type: 3}
       propertyPath: m_RootOrder
