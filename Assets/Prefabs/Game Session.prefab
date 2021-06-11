@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6591670529663223551}
   - component: {fileID: 2762729867096782736}
   m_Layer: 0
-  m_Name: Game Status
+  m_Name: Game Session
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
