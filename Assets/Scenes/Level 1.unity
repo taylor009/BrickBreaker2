@@ -715,6 +715,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Game Status
       objectReference: {fileID: 0}
+    - target: {fileID: 2762729867096782736, guid: 30929e612c423d6499700fece57367ce,
+        type: 3}
+      propertyPath: scoreText
+      value: 
+      objectReference: {fileID: 1863498514}
     - target: {fileID: 6591670529663223551, guid: 30929e612c423d6499700fece57367ce,
         type: 3}
       propertyPath: m_RootOrder
@@ -2076,6 +2081,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 134ca044ea3f9354e89fa35bdb3bb005, type: 3}
+--- !u!114 &1863498514 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1863498514, guid: d45be61807c8b2a4f9790c8afcb81f2c,
+    type: 3}
+  m_PrefabInstance: {fileID: 2188562342520536805}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1914206733 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4614833366881159878, guid: 134ca044ea3f9354e89fa35bdb3bb005,
@@ -2520,11 +2537,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 2188562341461217348, guid: d45be61807c8b2a4f9790c8afcb81f2c,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 2188562341951356555, guid: d45be61807c8b2a4f9790c8afcb81f2c,
         type: 3}
       propertyPath: m_Pivot.x
