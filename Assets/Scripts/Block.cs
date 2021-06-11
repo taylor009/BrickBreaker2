@@ -9,6 +9,7 @@ public class Block : MonoBehaviour
     [SerializeField] private AudioClip breakSound;
     [SerializeField] private GameObject blockSparklesVFX;
     [SerializeField] private int maxHits;
+    [SerializeField] private Sprite[] hitSprites;
     
     // cached reference
     private Level _level;
@@ -47,6 +48,16 @@ public class Block : MonoBehaviour
         {
             DestroyBlock();
         }
+        else
+        {
+            ShowNextHitSprite();
+        }
+    }
+
+    private void ShowNextHitSprite()
+    {
+        int spriteIndex = timesHit - 1;
+        GetComponent<SpriteRenderer>().sprite = hitSprites[spriteIndex];
     }
 
     private void DestroyBlock()
